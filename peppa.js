@@ -51,16 +51,16 @@ const trees =
 [
     "/pepaPig/img/tree_3.png",
     "/pepaPig/img/tree_2.png",
-    "pepaPig/img/tree_4.png",
-    "/MyApps/pepaPig/img/tree_1.png"
+    "/pepaPig/img/tree_4.png",
+    "/pepaPig/img/tree_1.png"
 ]
 
 const pepaFriends = ["/pepaPig/img/suzy_sheep.png",
                     "/pepaPig/img/danny_dog.png",
                     "/pepaPig/img/emily_elephant.png",
-                    "/MyApps/pepaPig/img/zoe_zebra.png",
-                    "/MyApps/pepaPig/img/pedro_pony.png",
-                    "/MyApps/pepaPig/img/fredy_fox.png",
+                    "/pepaPig/img/zoe_zebra.png",
+                    "/pepaPig/img/pedro_pony.png",
+                    "/pepaPig/img/fredy_fox.png",
                     "/pepaPig/img/rebecca_rabbit.png",
                     "/pepaPig/img/candy_cat.png"
                 ]
