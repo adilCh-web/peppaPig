@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src = "peppa.js" defer></script>
+<style>
+
+  table img 
+  {
+    height:70px;
+    width:80px;
+    background-color: rgb(0, 0, 0);
+    
+  }
+
+  table
+  {
+    background-color: rgb(0, 0, 0);
+    margin:0px auto;
+
+ 
+  }
+
+
+  #screen
+  {
+    margin:10px auto;
+    border: 10px solid purple;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+
+    #control
+    {
+      width:400px;
+      display:flex;
+      flex-direction: column;
+      justify-items:center;
+      justify-content: center;
+      margin: 1rem auto
+
+    }
+    #rightLeft
+    {
+        display:flex;
+        justify-content: space-around;
+        margin:0px
+    }
+    #up, #down
+    {
+        display:flex;
+        justify-content: center;
+        margin:0px
+    }
+    button
+    {
+      width:80px;
+      height:25px;
+      border-radius: 50px;
+      background-color: pink;
+      font-weight: bold;}
+    #start
+    {
+      width:200px;
+      margin-left:40px;
+      background-color: black;
+      color:white;
+      border:1px solid black;
+      font-size:35px;
+      letter-spacing: 10px;
+
+    }
+
+    #logo
+    {
+      position:absolute;
+      top:100px;
+      left:450px
+    }
+    #scoreLabel
+    {
+      font-size: 35px;
+      font-weight: bold;
+      letter-spacing: 5px;
+      text-align: center;
+      padding:0px;
+      margin:0px;
+      color:white
+    }
+
+    label
+    {
+      font-weight: bold;
+      font-style: italic;
+      color:pink
+    }
+
+    nav ul li
+    {
+      color:white;
+      display:inline;
+      margin:0px 40px;
+      padding:0px
+
+
+}
+nav{width:100%}
+#seconds{color:white}
+
+#news 
+{
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+
+
+
+
+    
+</style>
+<body>
+      <div id = "screen">
+        <nav>
+          <ul>
+            <li><button id = "start" onclick = "starting();interval">Start</button></li>
+            <li id = "scoreLabel"></li>
+            <li id = "treesLabel"></li>
+            <li id = "seconds"></li>
+            <li id = "bonusLabel"></li>
+          </ul>
+        </nav>
+
+        
+
+        <img id = "logo" src = "./img/logo.png" width="400px" >
+
+        <table>
+            <tr>
+              <th><img id = "img1"  src = "./img/background.png" ></th>
+              <th><img id = "img2"  src = "./img/background.png" ></th>
+              <th><img id = "img3"  src = "./img/background.png" ></th>
+              <th><img id = "img4"  src = "./img/background.png" ></th>
+              <th><img id = "img5"  src = "./img/background.png" ></th>
+              <th><img id = "img6" src = "./img/background.png" ></th>
+              <th><img id = "img7" src = "./img/background.png" ></th>
+              <th><img id = "img8" src = "./img/background.png" ></th>
+              <th><img id = "img9" src = "./img/background.png" ></th>
+              <th><img id = "img10" src = "./img/background.png" ></th>
+              <th><img id = "img11" src = "./img/background.png" ></th>
+              <th><img id = "img12" src = "./img/background.png" ></th>
+              <th><img id = "img13" src = "./img/background.png" ></th>
+              <th><img id = "img14" src = "./img/background.png" ></th>
+
+            </tr>
+            <tr>
+
+                <th id = "row15"><img id = "img15" src = "./img/background.png"></th>
+                <th><img id = "img16" src = "./img/background.png" ></th>
+                <th><img id = "img17" src = "./img/background.png" ></th>
+                <th><img id = "img18" src = "./img/background.png" ></th>
+                <th><img id = "img19" src = "./img/background.png" ></th>
+                <th><img id = "img20" src = "./img/background.png" ></th>
+                <th><img id = "img21" src = "./img/background.png" ></th>
+                <th><img id = "img22" src = "./img/background.png" ></th>
+                <th><img id = "img23" src = "./img/background.png" ></th>
+                <th><img id = "img24" src = "./img/background.png" ></th>
+                <th><img id = "img25" src = "./img/background.png" ></th>
+                <th><img id = "img26" src = "./img/background.png" ></th>
+                <th><img id = "img27" src = "./img/background.png" ></th>
+                <th><img id = "img28" src = "./img/background.png" ></th>
+
+              </tr>
+              <tr>
+                <th><img id = "img29" src = "./img/background.png" ></th>
+                <th><img id = "img30" src = "./img/background.png" ></th>
+                <th><img id = "img31" src = "./img/background.png" ></th>
+                <th><img id = "img32" src = "./img/background.png" ></th>
+                <th><img id = "img33" src = "./img/background.png" ></th>
+                <th><img id = "img34" src = "./img/background.png" ></th>
+                <th><img id = "img35" src = "./img/background.png" ></th>
+                <th><img id = "img36" src = "./img/background.png" ></th>
+                <th><img id = "img37" src = "./img/background.png" ></th>
+                <th><img id = "img38" src = "./img/background.png" ></th>
+                <th><img id = "img39" src = "./img/background.png" ></th>
+                <th><img id = "img40" src = "./img/background.png" ></th>
+                <th><img id = "img41" src = "./img/background.png" ></th>
+                <th><img id = "img42" src = "./img/background.png" ></th>
+
+
+              </tr>
+              <tr>
+                <th><img id = "img43" src = "./img/background.png" ></th>
+                <th><img id = "img44" src = "./img/background.png" ></th>
+                <th><img id = "img45" src = "./img/background.png" ></th>
+                <th><img id = "img46" src = "./img/background.png" ></th>
+                <th><img id = "img47" src = "./img/background.png" ></th>
+                <th><img id = "img48" src = "./img/background.png" ></th>
+                <th><img id = "img49" src = "./img/background.png" ></th>
+                <th><img id = "img50" src = "./img/background.png" ></th>
+                <th><img id = "img51" src = "./img/background.png" ></th>
+                <th><img id = "img52" src = "./img/background.png" ></th>
+                <th><img id = "img53" src = "./img/background.png" ></th>
+                <th><img id = "img54" src = "./img/background.png" ></th>
+                <th><img id = "img55" src = "./img/background.png" ></th>
+                <th><img id = "img56" src = "./img/background.png" ></th>
+
+              </tr>
+              <tr>
+                <th><img id = "img57" src = "./img/background.png" ></th>
+                <th><img id = "img58" src = "./img/background.png" ></th>
+                <th><img id = "img59" src = "./img/background.png" ></th>
+                <th><img id = "img60" src = "./img/background.png" ></th>
+                <th><img id = "img61" src = "./img/background.png" ></th>
+                <th><img id = "img62" src = "./img/background.png" ></th>
+                <th><img id = "img63" src = "./img/background.png" ></th>
+                <th><img id = "img64" src = "./img/background.png" ></th>
+                <th><img id = "img65" src = "./img/background.png" ></th>
+                <th><img id = "img66" src = "./img/background.png" ></th>
+                <th><img id = "img67" src = "./img/background.png" ></th>
+                <th><img id = "img68" src = "./img/background.png" ></th>
+                <th><img id = "img69" src = "./img/background.png" ></th>
+                <th><img id = "img70" src = "./img/background.png" ></th>
+
+  
+              </tr>
+              <tr>
+                <th><img id = "img71" src = "./img/background.png" ></th>
+                <th><img id = "img72" src = "./img/background.png" ></th>
+                <th><img id = "img73" src = "./img/background.png" ></th>
+                <th><img id = "img74" src = "./img/background.png" ></th>
+                <th><img id = "img75" src = "./img/background.png" ></th>
+                <th><img id = "img76" src = "./img/background.png" ></th>
+                <th><img id = "img77" src = "./img/background.png" ></th>
+                <th><img id = "img78" src = "./img/background.png" ></th>
+                <th><img id = "img79" src = "./img/background.png" ></th>
+                <th><img id = "img80" src = "./img/background.png" ></th>
+                <th><img id = "img81" src = "./img/background.png" ></th>
+                <th><img id = "img82" src = "./img/background.png" ></th>
+                <th><img id = "img83" src = "./img/background.png" ></th>
+                <th><img id = "img84" src = "./img/background.png" ></th>
+               
+
+              </tr>
+          </table>
+
+        </div>
+
+          <div id = "control">
+              <div id = "up">
+                  <button onclick = "moveUp()">UP</button>
+              </div>
+              <div id = "rightLeft">
+                <button onclick = "moveLeft()">left</button>
+                <button onclick = "moveRight()">right</button>
+            </div>
+            <div id = "down">
+                <button onclick="moveDown()">down</button>
+            </div>
+
+
+          </div>
+          <div>
+            <button id = "muddypaddle" onclick = "usingBonus()">Bonus</button>
+          </div>
+
+          <div>
+            <p id ="news"></p>
+          </div>
+
+
+
+    
+</body>
+</html>
