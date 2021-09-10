@@ -41,28 +41,28 @@ const hitTheTree = new Audio("./audio/peppa_pig_doo_doo.mp3")
 const muddypaddleSound = new Audio("./audio/mixkit-retro-arcade-game-over-470.wav") 
 const bonusUsingSound = new Audio("./audio/bonusSound.wav") 
 //images src variable
-const peppaLeft = "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/pepa_left.png"
-const peppaRight = "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/pepa_right.png"
+const peppaLeft = "/pepaPig/img/pepa_left.png"
+const peppaRight = "/pepaPig/img/pepa_right.png"
 var pepa = peppaLeft // by default left
-const emptySpace = "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/background.png"
-const crash = "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/crash.png"
-const muddypaddle = "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/muddypaddle.png"
+const emptySpace = "/pepaPig/img/background.png"
+const crash = "/pepaPig/img/crash.png"
+const muddypaddle = "/pepaPig/img/muddypaddle.png"
 const trees = 
 [
-    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/tree_3.png",
-    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/tree_2.png",
-    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/tree_4.png",
-    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/tree_1.png"
+    "/pepaPig/img/tree_3.png",
+    "/pepaPig/img/tree_2.png",
+    "pepaPig/img/tree_4.png",
+    "/MyApps/pepaPig/img/tree_1.png"
 ]
 
-const pepaFriends = ["file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/suzy_sheep.png",
-                    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/danny_dog.png",
-                    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/emily_elephant.png",
-                    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/zoe_zebra.png",
-                    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/pedro_pony.png",
-                    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/fredy_fox.png",
-                    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/rebecca_rabbit.png",
-                    "file:///C:/Users/44778/Desktop/MyApps/pepaPig/img/candy_cat.png"
+const pepaFriends = ["/pepaPig/img/suzy_sheep.png",
+                    "/pepaPig/img/danny_dog.png",
+                    "/pepaPig/img/emily_elephant.png",
+                    "/MyApps/pepaPig/img/zoe_zebra.png",
+                    "/MyApps/pepaPig/img/pedro_pony.png",
+                    "/MyApps/pepaPig/img/fredy_fox.png",
+                    "/pepaPig/img/rebecca_rabbit.png",
+                    "/pepaPig/img/candy_cat.png"
                 ]
 
 
