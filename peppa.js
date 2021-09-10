@@ -41,28 +41,29 @@ const hitTheTree = new Audio("./audio/peppa_pig_doo_doo.mp3")
 const muddypaddleSound = new Audio("./audio/mixkit-retro-arcade-game-over-470.wav") 
 const bonusUsingSound = new Audio("./audio/bonusSound.wav") 
 //images src variable
-const peppaLeft = "/pepaPig/img/pepa_left.png"
-const peppaRight = "/pepaPig/img/pepa_right.png"
+const peppaLeft = "https://adilch-web.github.io/pepaPig/img/pepa_left.png"
+const peppaRight = "https://adilch-web.github.io/pepaPig/img/pepa_right.png"
 var pepa = peppaLeft // by default left
-const emptySpace = "/pepaPig/img/background.png"
-const crash = "/pepaPig/img/crash.png"
-const muddypaddle = "/pepaPig/img/muddypaddle.png"
+const emptySpace = "https://adilch-web.github.io/pepaPig/img/background.png"
+const crash = "https://adilch-web.github.io/pepaPig/img/crash.png"
+const muddypaddle = "https://adilch-web.github.io/pepaPig/img/muddypaddle.png"
+
 const trees = 
 [
-    "/pepaPig/img/tree_3.png",
-    "/pepaPig/img/tree_2.png",
-    "/pepaPig/img/tree_4.png",
-    "/pepaPig/img/tree_1.png"
+    "https://adilch-web.github.io/pepaPig/img/tree_3.png",
+    "https://adilch-web.github.io/pepaPig/img/tree_2.png",
+    "https://adilch-web.github.io/pepaPig/img/tree_4.png",
+    "https://adilch-web.github.io/pepaPig/img/tree_1.png"
 ]
 
-const pepaFriends = ["/pepaPig/img/suzy_sheep.png",
-                    "/pepaPig/img/danny_dog.png",
-                    "/pepaPig/img/emily_elephant.png",
-                    "/pepaPig/img/zoe_zebra.png",
-                    "/pepaPig/img/pedro_pony.png",
-                    "/pepaPig/img/fredy_fox.png",
-                    "/pepaPig/img/rebecca_rabbit.png",
-                    "/pepaPig/img/candy_cat.png"
+const pepaFriends = ["https://adilch-web.github.io/pepaPig/img/suzy_sheep.png",
+                    "https://adilch-web.github.io/pepaPig/img/danny_dog.png",
+                    "https://adilch-web.github.io/pepaPig/img/emily_elephant.png",
+                    "https://adilch-web.github.io/pepaPig/img/zoe_zebra.png",
+                    "https://adilch-web.github.io/pepaPig/img/pedro_pony.png",
+                    "https://adilch-web.github.io/pepaPig/img/fredy_fox.png",
+                    "https://adilch-web.github.io/pepaPig/img/rebecca_rabbit.png",
+                    "https://adilch-web.github.io/pepaPig/img/candy_cat.png"
                 ]
 
 
